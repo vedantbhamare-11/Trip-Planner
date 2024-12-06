@@ -1,4 +1,4 @@
-const API_KEY = "a2f2179d6a904b32a251595025b63866";
+const API_KEY = "YOUR_API_KEY";
 
 export const fetchPlaceDetails = async (placeId: string) => {
   const response = await fetch(
