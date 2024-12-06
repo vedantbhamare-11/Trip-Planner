@@ -1,5 +1,5 @@
 import { fetchCoordinates } from "./geocodingService";
-const API_KEY = "a2f2179d6a904b32a251595025b63866";
+const API_KEY = "YOUR_API_KEY";
 
 export const fetchPlacePredictions = async (input: string) => {
   try {
